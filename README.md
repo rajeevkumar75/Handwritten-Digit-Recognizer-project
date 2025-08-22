@@ -74,3 +74,4 @@ handwritten_digit_recognizer/
 - If memory is low, reduce `--batch_size` (e.g., 64 or 32).
 - On Apple Silicon (M1/M2), you can install `tensorflow-macos` and `tensorflow-metal` for acceleration.
 "# Handwritten-Digit-Recognizer-" 
+"# Handwritten-Digit-Recognizer" 
