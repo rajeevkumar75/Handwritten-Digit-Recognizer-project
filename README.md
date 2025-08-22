@@ -2,44 +2,67 @@
 
 Link: https://rajeevkumar75-handwritten-digit-recognizer-project-app-uxx0ad.streamlit.app/
 
-A complete, beginner-friendly project to train a CNN on the MNIST dataset and predict digits (0–9).  
-It includes:
-- Training script (`src/train.py`)
-- Prediction script (`src/predict.py`)
-- Streamlit app for interactive prediction (`app.py`)
-- Requirements file (`requirements.txt`)
+🔹 Project Overview
 
-Summary: 
-This project involves using a convolutional neural network (CNN) built with TensorFlow to 
-classify digits (0–9) from the MNIST dataset. The model will be trained on thousands of labeled 
-images and used to predict digits in new image samples. 
+This project is a Handwritten Digit Recognition System built using TensorFlow and Streamlit.
+It leverages the MNIST dataset containing 70,000 images of handwritten digits (0–9).
+The model uses a Convolutional Neural Network (CNN) to automatically classify digits from images with high accuracy.
 
+🚀 Problem Statement
 
-Description: 
-• Load the MNIST dataset using TensorFlow/Keras 
-• Preprocess the images (normalize pixel values, reshape input) 
-• Define a CNN architecture with convolution, pooling, and dense layers 
-• Compile and train the model using the training set 
-• Evaluate performance on the test set using accuracy and loss metrics 
-• Predict digits from unseen images and display the output 
+Manual recognition of handwritten digits (e.g., in forms, bank cheques, and surveys) is time-consuming and error-prone.
+This project demonstrates how Deep Learning can automate the process, improve accuracy, and reduce human effort.
 
+🎯 Features
 
-Functional Components: 
-• Import TensorFlow and load the MNIST dataset 
-• Preprocess and reshape image data 
-• Build CNN model with Conv2D, MaxPooling2D, Flatten, Dense layers 
-• Train model with fit() and validate on test data 
-• Predict using model.predict() 
-• Visualize predictions using matplotlib (optional) 
+✅ Built with TensorFlow/Keras CNN
+✅ Achieves ~98% accuracy on MNIST test data
+✅ Interactive Streamlit web app for real-time predictions
+✅ Users can upload images or use sample test cases
+✅ Beautiful & simple UI for better visualization
+✅ Predictions displayed with confidence scores
 
+📊 Dataset
 
-Sample Dataset (MNIST format): 
-Each input: 28×28 grayscale image of a handwritten digit 
-Sample label: 7 
-Pixel values range: 0 to 255 
+Dataset Used: MNIST (Modified National Institute of Standards and Technology)
 
+Image Size: 28 × 28 pixels
 
-Expected Output: 
-For an input image resembling the digit 7: 
-Predicted Digit: 7 
-Model Accuracy: 98 percent on test data 
+Color Mode: Grayscale (0–255 pixel values)
+
+Labels: Digits from 0 to 9
+
+🏗️ Tech Stack
+
+Python 3.x
+
+TensorFlow/Keras (Deep Learning Framework)
+
+NumPy, Matplotlib (Data preprocessing & visualization)
+
+Streamlit (Frontend UI for deployment)
+
+🔧 Functional Components
+
+Load and preprocess MNIST dataset
+
+Build CNN model with Conv2D, MaxPooling2D, Dense layers
+
+Train and evaluate the model
+
+Save the trained model (.h5 format)
+
+Streamlit app for:
+
+Uploading images
+
+Predicting digit in real-time
+
+Showing confidence levels
+
+📸 UI Preview (example)
+
+🔹 Home Page with Project Title
+🔹 Upload Image Section
+🔹 Model Prediction with Accuracy
+🔹 Sample Test Cases
