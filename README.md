@@ -31,4 +31,18 @@ This project automates the process by training a CNN model on the **MNIST datase
 
 ---
 
-## 📂 Project Structure
+## 🧠 Model Training
+- Input: 28×28 grayscale digit images
+- Output: Digit class (0–9)
+- Optimizer: Adam
+- Loss: Categorical Crossentropy
+- Metrics: Accuracy
+- Epochs: 5–10 (adjustable)
+- Achieved ~98% accuracy on test set.
+
+---
+
+## 🎯 Expected Output
+- Predicted Digit: 7
+- Model Accuracy: 98%
+
