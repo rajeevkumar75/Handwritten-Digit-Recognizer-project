@@ -2,8 +2,6 @@
 
 Link: https://rajeevkumar75-handwritten-digit-recognizer-project-app-uxx0ad.streamlit.app/
 
-# 🖊️ Handwritten Digit Recognizer
-
 A deep learning project that recognizes handwritten digits (0–9) from images using **TensorFlow** and **Convolutional Neural Networks (CNNs)**.  
 Built with **Python** and deployed with **Streamlit** for an interactive user interface.
 
